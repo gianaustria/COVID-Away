@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="COVID_Away_FinalProj.Result"
+              NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+
+        <ScrollView>
+
+            <StackLayout BackgroundColor="#dbeaf0">
+
+            <!-- Frame2-->
+                <Frame CornerRadius="6" BackgroundColor="#cbe1e7" 
+                 Padding="20" 
+                 Margin="20"
+                 HeightRequest="300"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand">
+                <Image Source="covidaway.jpg"/>
+            </Frame>
+            
+            <!-- Frame2-->
+                <Frame CornerRadius="6" BackgroundColor="#004e63" 
+                 Margin="68, 10"
+                 Padding="20" 
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand">
+
+                <Label Text="Result"
+                       FontSize="26" 
+                       Padding="20"
+                       
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       TextColor="White" 
+                       x:Name="result">
+                </Label>
+            </Frame>
+                <Button x:Name="GoToPage2" 
+                            Text="Know more about COVID-19" 
+                            Clicked="GoToPage2_Clicked" 
+                            BackgroundColor="#6fadc3" 
+                            TextColor="AliceBlue" 
+                        HorizontalOptions="Center"/>
+
+                <Button x:Name="OptionPage" Text="Menu" HorizontalOptions="Center" Clicked="OptionPage_Clicked"
+                BackgroundColor="CornflowerBlue" FontFamily="Typo" FontAttributes="Bold"/>
+
+
+            </StackLayout>
+
+       </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="COVID_Away_FinalProj.CovidPage"
+              NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+        <StackLayout HorizontalOptions="FillAndExpand" WidthRequest="1000" BackgroundColor="#dbeaf0">
+       
+        <!--Frame 1-->
+            <Frame BackgroundColor="#4b96b4" Padding="24" CornerRadius="0">
+                <Label Text="Covid Test" 
+                       FontFamily="Christmas Bells"
+                       FontSize="50" 
+                       HorizontalTextAlignment="Center"
+                       TextColor="White" 
+                       x:Name="Label1">
+                </Label>
+            </Frame>
+        
+        <!--Frame 2-->
+
+          
+                <StackLayout>
+                <Frame CornerRadius="6" BackgroundColor="#edf5f7" 
+                 Padding="20" 
+                 Margin="20"
+                 HeightRequest="300"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand">
+                        <Image Source="test.png"/>
+                    </Frame>
+                </StackLayout>
+            
+
+            <!--Frame 3-->
+
+            <Frame Margin="30,20,30,40" BackgroundColor="#edf5f7" CornerRadius="6" >
+                <StackLayout>
+
+                    <Picker x:Name="question1"
+                      Title="1. Do you have cough?"
+                      TitleColor="Black">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Yes</x:String>
+                                <x:String>No</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+
+                    <Picker x:Name="question2"
+                      Title="2. Do you have fever?"
+                      TitleColor="Black">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Yes</x:String>
+                                <x:String>No</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+
+                    <Picker x:Name="question3"
+                      Title="3. Loss of taste and smell?"
+                      TitleColor="Black">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Yes</x:String>
+                                <x:String>No</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+
+                    <Button x:Name="Result" 
+                            Text="Show Result" 
+                            Clicked="Result_Clicked" 
+                            BackgroundColor="#6fadc3" 
+                            TextColor="AliceBlue"></Button>
+                   
+                    <Button x:Name="GoToPage2" 
+                            Text="Know more about COVID-19" 
+                            Clicked="GoToPage2_Clicked" 
+                            BackgroundColor="#6fadc3" 
+                            TextColor="AliceBlue"></Button>
+
+                    <Button x:Name="OptionPage" Text="Menu" HorizontalOptions="Center" Clicked="OptionPage_Clicked"
+                BackgroundColor="CornflowerBlue" FontFamily="Typo" FontAttributes="Bold"/>
+                </StackLayout>
+            </Frame>
+
+
+
+
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+
+          
+            </StackLayout>
+      
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="COVID_Away_FinalProj.AboutUsPage"
+              NavigationPage.HasNavigationBar="False">
+
+    <ScrollView VerticalOptions="FillAndExpand">
+        <StackLayout  HorizontalOptions="FillAndExpand" WidthRequest="1000" BackgroundColor="#E6E6DC">
+
+
+            <!--frame 1-->
+            <Frame BackgroundColor="#395d4c" Padding="24" CornerRadius="0">
+
+                <Label Text="About Us" 
+                       FontFamily="Christmas Bells"
+                       HorizontalTextAlignment="Center" 
+                       TextColor="WhiteSmoke" 
+                       FontSize="50" />
+            </Frame>
+            <!--Gian-->
+            <Frame CornerRadius="6" BackgroundColor="#00628B" 
+                 Padding="20" 
+                 Margin="20"
+                 HeightRequest="300"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand">
+                <Image Source="gian.jpg"/>
+            </Frame>
+
+            <Frame Margin="68, 10"  CornerRadius="6" BackgroundColor="#589db9">
+                <Label Text="Gian Carlo C. Austria" 
+                FontFamily="Raleway-LightItalic"
+                FontSize="20"
+                CharacterSpacing="1"
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"/>
+            </Frame>
+
+
+            <Frame  Margin="68, 10" CornerRadius="6" BackgroundColor="#589db9">
+                <Label Text="21 Years Old" 
+                 CharacterSpacing="1"
+                 FontFamily="Raleway-LightItalic"
+                 FontSize="20"
+                 TextColor="White"
+                 HorizontalTextAlignment="Center"
+                 FontAttributes="Bold"/>
+            </Frame>
+
+            <Frame  Margin="68, 10" CornerRadius="6" BackgroundColor="#589db9">
+                <Label Text="BS-Information Systems " 
+                CharacterSpacing="1"
+                FontFamily="Raleway-LightItalic"
+                FontSize="20"
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"/>
+            </Frame>
+
+
+            <Frame  Margin="68, 10"  CornerRadius="6" BackgroundColor="#589db9">
+                <Label Text="&quot;Opinion of others should never become your reality &quot;- Start-Up Quotes "
+                CharacterSpacing="1"
+                FontFamily="Raleway-LightItalic"
+                FontSize="20"
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"/>
+            </Frame>
+       
+            <!--Adrian-->
+            <Frame BackgroundColor="#81A594" 
+                 Padding="20" 
+                 CornerRadius="6"
+                 Margin="20"
+                 HeightRequest="300"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand">
+                <Image Source="Adrii.jpg"/>
+            </Frame>
+
+            <Frame  Margin="68, 10" BackgroundColor="#9ab0a6" CornerRadius="6">
+            <Label Text="Adrian Peter S. Go" 
+                CharacterSpacing="1"
+                FontFamily="Raleway-LightItalic"
+                FontSize="20"
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"/>
+            </Frame>
+
+            <Frame  Margin="68, 10" BackgroundColor="#9ab0a6" CornerRadius="6">
+            <Label Text="21 Years Old" 
+                 CharacterSpacing="1"
+                 FontFamily="Raleway-LightItalic"
+                 FontSize="17"
+                 TextColor="White"
+                 HorizontalTextAlignment="Center"
+                 FontAttributes="Bold"/>
+            </Frame>
+
+            <Frame  Margin="68, 10" BackgroundColor="#9ab0a6" CornerRadius="6">
+            <Label Text="BS-Information Systems " 
+                CharacterSpacing="1"
+                FontFamily="Raleway-LightItalic"
+                FontSize="20"
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"/>
+            </Frame>
+
+            <Frame  Margin="68, 10" BackgroundColor="#9ab0a6" CornerRadius="6">
+                <Label Text="&quot; Many of life's failures are people who did not realize how close they were to success when they gave up &quot;. – Thomas A. Edison" 
+                 CharacterSpacing="1"
+                FontFamily="Raleway-LightItalic"
+                FontSize="20"
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"/>
+            </Frame>
+
+            <!--britt-->
+            <Frame BackgroundColor="#787871" 
+                 Padding="20" 
+                 CornerRadius="6"
+                 Margin="20"
+                 HeightRequest="300"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand">
+                <Image Source="britt.jpg"/>
+            </Frame>
+
+            <Frame  Margin="68, 10" BackgroundColor="#b0b0af" CornerRadius="6">
+                <Label Text="Brittney Marie Baldwin" 
+                CharacterSpacing="1"
+                TextColor="White"
+                FontFamily="Raleway-LightItalic"
+                FontSize="20"
+                HorizontalTextAlignment="Center"
+                 FontAttributes="Bold"/>
+            </Frame>
+
+            <Frame Margin="68, 10" BackgroundColor="#b0b0af" CornerRadius="6">
+                <Label Text="21 Years Old" 
+                 CharacterSpacing="1"
+                 FontFamily="Raleway-LightItalic"
+                 FontSize="20"
+                 TextColor="White"
+                 HorizontalTextAlignment="Center"
+                 FontAttributes="Bold"/>
+            </Frame>
+
+
+            <Frame  Margin="68, 10" BackgroundColor="#b0b0af" CornerRadius="6">
+                <Label Text="BS-Information Systems " 
+                CharacterSpacing="1"
+                TextColor="White"
+                FontFamily="Raleway-LightItalic"
+                FontSize="20"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"/>
+            </Frame>
+
+
+            <Frame  Margin="68, 10" BackgroundColor="#b0b0af" CornerRadius="6">
+                <Label Text=" &quot;You can nearly always enjoy things if you make up your mind firmly that you will &quot;. - Lucy Maud Montgomery, Anne of Green Gables" 
+                CharacterSpacing="1"
+                FontSize="20"
+                FontFamily="Raleway-LightItalic"
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"/>
+            </Frame>
+
+            <Button x:Name="OptionPage" Text="Menu" HorizontalOptions="Center" Clicked="OptionPage_Clicked"
+                BackgroundColor="CornflowerBlue" FontFamily="Typo" FontAttributes="Bold"/>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

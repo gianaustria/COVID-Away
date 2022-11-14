@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="COVID_Away_FinalProj.DonationPage"
+              NavigationPage.HasNavigationBar="False">
+
+    <ScrollView>
+
+        <StackLayout BackgroundColor="CadetBlue">
+            <Frame BackgroundColor="LightBlue" Padding="24" CornerRadius="0">
+
+                <Label Text="Donation Drive" 
+                       HorizontalTextAlignment="Center" 
+                       TextColor="#00507d" 
+                       FontFamily="Christmas Bells"
+                       FontSize="40" />
+            </Frame>
+
+
+
+            <Frame Margin="30,20,30,40" BackgroundColor="LightBlue">
+                <StackLayout  >
+                    <Image  Source="donation5.png" />
+                </StackLayout>
+            </Frame>
+
+            <Frame Margin="30,20,30,40" BackgroundColor="LightBlue">
+                <StackLayout  >
+                    <Image  Source="donation2.png" />
+                </StackLayout>
+            </Frame>
+
+            <Frame Margin="30,20,30,40" BackgroundColor="LightBlue">
+                <StackLayout  >
+                    <Image  Source="donation3.png" />
+                </StackLayout>
+            </Frame>
+
+            <Frame Margin="30,20,30,40" BackgroundColor="LightBlue">
+                <StackLayout  >
+                    <Image  Source="donation4.png" />
+                </StackLayout>
+            </Frame>
+
+            <Button x:Name="OptionPage" Text="Menu" HorizontalOptions="Center" Clicked="OptionPage_Clicked"
+                BackgroundColor="CornflowerBlue" FontFamily="Typo" FontAttributes="Bold"/>
+
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

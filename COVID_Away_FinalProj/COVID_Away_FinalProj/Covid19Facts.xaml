@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="COVID_Away_FinalProj.Covid19Facts"
+              NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#dbeaf0">
+
+            <!--Frame 1-->
+                <Frame BackgroundColor="#4b96b4" Padding="24" CornerRadius="0">
+                <Label Text="FACTS ABOUT COVID-19" 
+                       FontSize="30" 
+                       HorizontalTextAlignment="Center"
+                       TextColor="White" 
+                       x:Name="Label1">
+                </Label>
+            </Frame>
+
+            <!--facts1-->
+                <Frame CornerRadius="6" BackgroundColor="#cbe1e7" 
+                 Padding="20" 
+                 Margin="20"
+                 HeightRequest="300"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand">
+                <Image Source="paks1.png"/>
+            </Frame>
+
+         
+
+            <!--facts2-->
+                <Frame CornerRadius="6" BackgroundColor="#cbe1e7" 
+                 Padding="20" 
+                 Margin="20"
+                 HeightRequest="300"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand">
+                <Image Source="paks2.png"/>
+            </Frame>
+
+            <!--facts3-->
+                <Frame CornerRadius="6" BackgroundColor="#cbe1e7" 
+                 Padding="20" 
+                 Margin="20"
+                 HeightRequest="300"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand">
+                <Image Source="paks3.png"/>
+            </Frame>
+
+            <!--facts4-->
+                <Frame CornerRadius="6" BackgroundColor="#cbe1e7" 
+                 Padding="20" 
+                 Margin="20"
+                 HeightRequest="300"
+                 HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand">
+                <Image Source="paks4.png"/>
+            </Frame>
+
+
+
+            <Button x:Name="BackToMainPage" 
+                    Padding="10" 
+                    CornerRadius="6"
+                    Margin="20"
+                    Text="Go Back" 
+                    TextColor="White"
+                    BackgroundColor="#4b96b4"
+                    Clicked="BackToMainPage_Clicked"></Button>
+                
+                
+                <Button x:Name="OptionPage" Text="Menu" HorizontalOptions="Center" Clicked="OptionPage_Clicked"
+                BackgroundColor="CornflowerBlue" FontFamily="Typo" FontAttributes="Bold"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

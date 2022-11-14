@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="COVID_Away_FinalProj.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="maincover.PNG"/>
+                <Label Text="Welcome to COVID AWAY an interactive app that will help you this time of pandemic." FontFamily="Winter" 
+               FontSize="25" Padding="30,0,30,0" HorizontalTextAlignment="Center"/>
+
+                <Button x:Name="OptionPage" Text="Get Started" HorizontalOptions="Center" Clicked="OptionPage_Clicked"
+                BackgroundColor="CornflowerBlue" FontFamily="Typo" FontAttributes="Bold"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>
